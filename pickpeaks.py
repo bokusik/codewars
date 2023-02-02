@@ -19,7 +19,3 @@ def pick_peaks(arr):
          
     return {"pos":pos,"peaks":peaks}
 
-
-if __name__ == '__main__':
-    arr = [1, 2, 2, 2, 1]    # return pick_peaks "{pos: [1], peaks: [2]}"
-    print(pick_peaks(arr))
